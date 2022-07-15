@@ -1,0 +1,3 @@
+﻿  The system cannot find the path specified.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(147,5): error MSB3073: The command "copy D:\TheseusEngineProject\\Build\TheseusEngine\Release\TheseusEngine.dll D:\TheseusEngineProject\\Build\Release\
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(147,5): error MSB3073: :VCEnd" exited with code 1.

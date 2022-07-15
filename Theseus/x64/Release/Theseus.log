@@ -1,0 +1,285 @@
+﻿  CmdLineArgs.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Common\CmdLineArgs.cpp(5,20): warning C4273: 'CmdLineArgs::ReadArguments': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Common\CmdLineArgs.h(5,19): message : see previous definition of 'ReadArguments'
+D:\TheseusEngineProject\Theseus\Source\Common\CmdLineArgs.cpp(22,19): warning C4273: 'CmdLineArgs::ReadArgument': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Common\CmdLineArgs.h(6,19): message : see previous definition of 'ReadArgument'
+  Logger.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.cpp(8,17): warning C4273: 'inst': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.h(8,17): message : see previous definition of 'private: static Logger * Logger::inst'
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.cpp(8,21): error C2491: 'Logger::inst': definition of dllimport static data member not allowed
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.cpp(10,9): warning C4273: 'Logger::Logger': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.h(13,2): message : see previous definition of '{ctor}'
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.cpp(15,10): warning C4273: 'Logger::~Logger': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.h(14,3): message : see previous definition of '{dtor}'
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.cpp(19,14): warning C4273: 'Logger::PrintLog': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.h(16,14): message : see previous definition of 'PrintLog'
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.cpp(47,22): warning C4273: 'Logger::LogDirectory': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.h(17,17): message : see previous definition of 'LogDirectory'
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.cpp(61,22): warning C4273: 'Logger::LogFile': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.h(18,17): message : see previous definition of 'LogFile'
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.cpp(70,14): warning C4273: 'Logger::PrintDebugSeparator': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.h(21,14): message : see previous definition of 'PrintDebugSeparator'
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.cpp(86,14): warning C4273: 'Logger::IsMTailRunning': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.h(24,14): message : see previous definition of 'IsMTailRunning'
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.cpp(102,14): warning C4273: 'Logger::StartMTail': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Common\Logger.h(27,14): message : see previous definition of 'StartMTail'
+  Time.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Common\Time.cpp(9,20): warning C4273: 'Time::GetTime': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Common\Time.h(7,22): message : see previous definition of 'GetTime'
+D:\TheseusEngineProject\Theseus\Source\Common\Time.cpp(30,20): warning C4273: 'Time::GetDate': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Common\Time.h(10,22): message : see previous definition of 'GetDate'
+D:\TheseusEngineProject\Theseus\Source\Common\Time.cpp(52,1): error C2491: 'Time::GetDateTimeString': definition of dllimport function not allowed
+  Core.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+  CoreDefinitions.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+  CoreMinimal.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+  PerGameSettings.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Core\PerGameSettings.cpp(4,35): warning C4273: 'inst': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Core\PerGameSettings.h(6,26): message : see previous definition of 'private: static PerGameSettings * PerGameSettings::inst'
+D:\TheseusEngineProject\Theseus\Source\Core\PerGameSettings.cpp(4,39): error C2491: 'PerGameSettings::inst': definition of dllimport static data member not allowed
+D:\TheseusEngineProject\Theseus\Source\Core\PerGameSettings.cpp(6,18): warning C4273: 'PerGameSettings::PerGameSettings': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Core\PerGameSettings.h(10,2): message : see previous definition of '{ctor}'
+D:\TheseusEngineProject\Theseus\Source\Core\PerGameSettings.cpp(17,19): warning C4273: 'PerGameSettings::~PerGameSettings': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Core\PerGameSettings.h(11,3): message : see previous definition of '{dtor}'
+  MainWindow.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.cpp(11,2): error C2491: 'MainScreen::Open': definition of dllimport function not allowed
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.cpp(20,2): error C2491: 'MainScreen::Close': definition of dllimport function not allowed
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.cpp(28,13): warning C4273: 'MainWindow::MainWindow': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.h(11,2): message : see previous definition of '{ctor}'
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.cpp(36,18): warning C4273: 'MainWindow::OnNonClientCreate': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.h(14,10): message : see previous definition of 'OnNonClientCreate'
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.cpp(57,18): warning C4273: 'MainWindow::PaintCaption': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.h(15,10): message : see previous definition of 'PaintCaption'
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.cpp(72,104): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.cpp(106,122): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.cpp(111,50): warning C4267: '=': conversion from 'size_t' to 'INT', possible loss of data
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.cpp(120,121): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.cpp(128,18): warning C4273: 'MainWindow::OnNonClientLeftMouseButtonDown': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.h(16,10): message : see previous definition of 'OnNonClientLeftMouseButtonDown'
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.cpp(144,74): warning C4551: function call missing argument list
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.cpp(170,14): warning C4273: 'MainWindow::~MainWindow': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\MainWindow.h(12,3): message : see previous definition of '{dtor}'
+  Simulation.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Engine\Simulation.cpp(6,22): warning C4273: 'Theseus::Simulation::Simulation': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\Simulation.h(10,3): message : see previous definition of '{ctor}'
+D:\TheseusEngineProject\Theseus\Source\Engine\Simulation.cpp(12,27): warning C4273: 'Theseus::Simulation::PreInitialize': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\Simulation.h(12,16): message : see previous definition of 'PreInitialize'
+D:\TheseusEngineProject\Theseus\Source\Engine\Simulation.cpp(34,30): warning C4273: 'Theseus::Simulation::MessageHandler': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\Simulation.h(13,19): message : see previous definition of 'MessageHandler'
+D:\TheseusEngineProject\Theseus\Source\Engine\Simulation.cpp(39,2): warning C4060: switch statement contains no 'case' or 'default' labels
+D:\TheseusEngineProject\Theseus\Source\Engine\Simulation.cpp(44,23): warning C4273: 'Theseus::Simulation::~Simulation': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\Simulation.h(11,4): message : see previous definition of '{dtor}'
+  SplashScreen.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.cpp(10,7): warning C4273: 'SplashScreen::Open': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.h(4,19): message : see previous definition of 'Open'
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.cpp(17,7): warning C4273: 'SplashScreen::Close': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.h(5,19): message : see previous definition of 'Close'
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.cpp(22,7): warning C4273: 'SplashScreen::AddMessage': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.h(6,19): message : see previous definition of 'AddMessage'
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.cpp(28,15): warning C4273: 'SplashWindow::SplashWindow': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.h(12,2): message : see previous definition of '{ctor}'
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.cpp(37,23): warning C4273: 'SplashWindow::MessageHandler': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.h(15,13): message : see previous definition of 'MessageHandler'
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.cpp(54,91): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.cpp(57,87): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.cpp(44,12): warning C4101: 'hmemdc': unreferenced local variable
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.cpp(43,11): warning C4101: 'hbitmap': unreferenced local variable
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.cpp(72,16): warning C4273: 'SplashWindow::~SplashWindow': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\SplashScreen.h(13,3): message : see previous definition of '{dtor}'
+  TEngine.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Engine\TEngine.cpp(7,8): warning C4273: 'Engine::SetMode': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\TEngine.h(17,19): message : see previous definition of 'SetMode'
+D:\TheseusEngineProject\Theseus\Source\Engine\TEngine.cpp(12,14): warning C4273: 'Engine::GetMode': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\TEngine.h(18,25): message : see previous definition of 'GetMode'
+D:\TheseusEngineProject\Theseus\Source\Engine\TEngine.cpp(18,2): error C2491: 'Engine::EngineModeToString': definition of dllimport function not allowed
+D:\TheseusEngineProject\Theseus\Source\Engine\TEngine.cpp(33,10): warning C4273: 'TEngine::TEngine': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\TEngine.h(27,2): message : see previous definition of '{ctor}'
+D:\TheseusEngineProject\Theseus\Source\Engine\TEngine.cpp(42,11): warning C4273: 'TEngine::~TEngine': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\TEngine.h(28,3): message : see previous definition of '{dtor}'
+D:\TheseusEngineProject\Theseus\Source\Engine\TEngine.cpp(46,29): warning C4273: 'TEngine::GetEngineMode': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\TEngine.h(32,21): message : see previous definition of 'GetEngineMode'
+D:\TheseusEngineProject\Theseus\Source\Engine\TEngine.cpp(51,15): warning C4273: 'TEngine::SetEngineMode': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Engine\TEngine.h(33,7): message : see previous definition of 'SetEngineMode'
+  FileMenu.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\FileMenu.cpp(8,8): warning C4273: 'FileMenu::Open': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\FileMenu.h(7,19): message : see previous definition of 'Open'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\FileMenu.cpp(15,8): warning C4273: 'FileMenu::Close': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\FileMenu.h(8,19): message : see previous definition of 'Close'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\FileMenu.cpp(22,12): warning C4273: 'FilePopup::FilePopup': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\FileMenu.h(16,2): message : see previous definition of '{ctor}'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\FileMenu.cpp(30,20): warning C4273: 'FilePopup::MessageHandler': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\FileMenu.h(20,13): message : see previous definition of 'MessageHandler'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\FileMenu.cpp(37,12): warning C4101: 'hmemdc': unreferenced local variable
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\FileMenu.cpp(50,17): warning C4273: 'FilePopup::Initialize': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\FileMenu.h(18,19): message : see previous definition of 'Initialize'
+  iApplication.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\iApplication.cpp(5,22): warning C4273: 'Win32::iApplication::iApplication': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\iApplication.h(10,3): message : see previous definition of '{ctor}'
+  SubObject.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.cpp(7,13): warning C4273: 'Win32::SubObject::SubObject': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(8,3): message : see previous definition of '{ctor}'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.cpp(12,14): warning C4273: 'Win32::SubObject::~SubObject': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(9,4): message : see previous definition of '{dtor}'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.cpp(17,18): warning C4273: 'Win32::SubObject::RegisterNewClass': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(11,16): message : see previous definition of 'RegisterNewClass'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.cpp(35,21): warning C4273: 'Win32::SubObject::SetupMessaegeHandler': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(15,28): message : see previous definition of 'SetupMessaegeHandler'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.cpp(49,21): warning C4273: 'Win32::SubObject::AssignMessageHandler': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(16,22): message : see previous definition of 'AssignMessageHandler'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.cpp(55,21): warning C4273: 'Win32::SubObject::MessageHandler': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(17,23): message : see previous definition of 'MessageHandler'
+  Win32Utils.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Win32Utils.cpp(5,21): warning C4273: 'Win32::Utils::AddBitmap': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Win32Utils.h(33,20): message : see previous definition of 'AddBitmap'
+  Window.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.cpp(11,10): warning C4273: 'Win32::Window::Window': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(16,3): message : see previous definition of '{ctor}'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.cpp(19,15): warning C4273: 'Win32::Window::Initialize': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(19,20): message : see previous definition of 'Initialize'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.cpp(36,18): warning C4273: 'Win32::Window::MessageHandler': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(21,23): message : see previous definition of 'MessageHandler'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.cpp(52,15): warning C4273: 'Win32::Window::OnNonClientCreate': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(24,20): message : see previous definition of 'OnNonClientCreate'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.cpp(66,15): warning C4273: 'Win32::Window::OnNonClientPaint': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(23,20): message : see previous definition of 'OnNonClientPaint'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.cpp(101,15): warning C4273: 'Win32::Window::RedrawWindow': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(25,20): message : see previous definition of 'RedrawWindow'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.cpp(107,15): warning C4273: 'Win32::Window::PaintCaption': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(26,20): message : see previous definition of 'PaintCaption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.cpp(119,105): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.cpp(153,123): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.cpp(158,15): warning C4273: 'Win32::Window::OnNonClientLeftMouseButtonDown': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(27,20): message : see previous definition of 'OnNonClientLeftMouseButtonDown'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.cpp(182,15): warning C4273: 'Win32::Window::OnGetMinMaxInfo': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(28,20): message : see previous definition of 'OnGetMinMaxInfo'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.cpp(193,15): warning C4273: 'Win32::Window::OnPaint': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(29,20): message : see previous definition of 'OnPaint'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.cpp(208,11): warning C4273: 'Win32::Window::~Window': inconsistent dll linkage
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(17,4): message : see previous definition of '{dtor}'
+  Theseus.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+  w32Caption.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'

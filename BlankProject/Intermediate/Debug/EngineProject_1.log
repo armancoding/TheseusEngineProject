@@ -1,0 +1,17 @@
+﻿  Application.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+  pch.cpp
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(21,13): warning C4251: 'Win32::SubObject::m_Class': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\SubObject.h(22,13): warning C4251: 'Win32::SubObject::m_Title': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Win32::SubObject'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xstring(4928): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(14,2): warning C4275: non dll-interface class 'Win32::Caption' used as base for dll-interface class 'Win32::Window'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\w32Caption.h(13): message : see declaration of 'Win32::Caption'
+D:\TheseusEngineProject\Theseus\Source\Platform\WIN32\Window.h(13): message : see declaration of 'Win32::Window'
+  EngineProject_1.vcxproj -> D:\TheseusEngineProject\Build\Debug\BlankProject.exe

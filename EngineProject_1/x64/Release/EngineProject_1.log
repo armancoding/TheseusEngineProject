@@ -1,0 +1,9 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (ArmanEngine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Application.cpp
+  pch.cpp
+  WinMain.cpp
+LINK : warning C4727: PCH named c:\users\arman\onedrive - the city university of new york\school\cpp\engine\engineproject_4\engineproject_1\x64\release\blankproject.pch with same timestamp found in c:\users\arman\onedrive - the city university of new york\school\cpp\engine\engineproject_4\engineproject_1\x64\release\winmain.obj and c:\users\arman\onedrive - the city university of new york\school\cpp\engine\engineproject_4\engineproject_1\x64\release\pch.obj.  Using first PCH.
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl iApplication::iApplication(void)" (__imp_??0iApplication@@QEAA@XZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl iApplication::~iApplication(void)" (__imp_??1iApplication@@UEAA@XZ)
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\Users\Arman\OneDrive - The City University of New York\School\CPP\Engine\EngineProject_4\x64\Release\BlankProject.exe : fatal error LNK1120: 3 unresolved externals
